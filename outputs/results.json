@@ -1,0 +1,101 @@
+{
+  "Logistic Regression": {
+    "accuracy": 0.8888888888888888,
+    "precision": 0.9230769230769231,
+    "recall": 0.9230769230769231,
+    "f1": 0.9230769230769231,
+    "auc": 0.9076923076923078,
+    "cv_mean": 0.8150326797385621,
+    "cv_std": 0.06369112530760697,
+    "confusion_matrix": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        12
+      ]
+    ]
+  },
+  "Random Forest": {
+    "accuracy": 0.7777777777777778,
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1": 0.8333333333333334,
+    "auc": 0.8307692307692307,
+    "cv_mean": 0.7810457516339869,
+    "cv_std": 0.1066381481804605,
+    "confusion_matrix": [
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  "Gradient Boosting": {
+    "accuracy": 0.7777777777777778,
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1": 0.8333333333333334,
+    "auc": 0.8615384615384616,
+    "cv_mean": 0.7346405228758169,
+    "cv_std": 0.09239527867750215,
+    "confusion_matrix": [
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  "MLP (Deep Learning)": {
+    "accuracy": 0.7222222222222222,
+    "precision": 0.8333333333333334,
+    "recall": 0.7692307692307693,
+    "f1": 0.8,
+    "auc": 0.8615384615384616,
+    "cv_mean": 0.733986928104575,
+    "cv_std": 0.08903294747115198,
+    "confusion_matrix": [
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        10
+      ]
+    ]
+  },
+  "_meta": {
+    "best_model": "Logistic Regression",
+    "best_accuracy": 0.8888888888888888,
+    "n_samples": 86,
+    "n_features": 12,
+    "feature_names": [
+      "lycee_mean",
+      "lycee_std",
+      "lycee_min",
+      "lycee_max",
+      "lycee_count",
+      "lycee_mean_autre",
+      "lycee_mean_langues",
+      "lycee_mean_litteraire",
+      "lycee_mean_scientifique",
+      "age",
+      "level_2ème Année Bac Sciences Mathématiques A - Option Français",
+      "level_2ème Année Bac Sciences Physiques - Option Français"
+    ],
+    "random_state": 2024,
+    "test_size": 0.2,
+    "baseline_accuracy": 0.7093023255813954
+  }
+}
